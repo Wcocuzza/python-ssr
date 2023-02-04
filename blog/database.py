@@ -6,7 +6,7 @@ cursor = conn.cursor()
 conn.execute(
     """\
     CREATE TABLE if not exists post (
-        id interger PRIMARY KEY AUTOINCREMENT,
+        id integer PRIMARY KEY AUTOINCREMENT,
         title varchar UNIQUE NOT NULL,
         content varchar NOT NULL,
         author varchar NOT NULL
