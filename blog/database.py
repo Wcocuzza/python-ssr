@@ -16,7 +16,7 @@ conn.execute(
 
 posts = [
     {
-    "title": "Python é eleita a linguagem mais popular",
+    "title": "Python e eleita a linguagem mais popular",
     "content": """\
 		A linguagem Python foi eleita a linguagem mais popular pela revista tech masters
         e segue dominando o mundo.
